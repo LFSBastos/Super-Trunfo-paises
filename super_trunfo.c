@@ -12,7 +12,7 @@ int main() {
 
     // Variáveis para a Carta 2
     char estado2 = 'B';
-    char codigo2[4] = "A02";
+    char codigo2[4] = "B02";
     char cidade2[50] = "Rio de Janeiro";
     int populacao2 = 6748000;
     float area2 = 1200.25;
