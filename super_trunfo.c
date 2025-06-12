@@ -3,55 +3,21 @@
 int main() {
     // Variáveis para a Carta 1
     char estado1 = 'A';
-    char codigo1[4] = 'A01';
+    char codigo1[4] = "A01";
     char cidade1[50] = "São Paulo";
-    int populacao1 = '12325000';
-    float area1 = '1521.11 km²';
-    float pib1 = '699.28 bilhões de reais';
-    int pontos_turisticos1 = '50';
+    int populacao1 = 12325000;
+    float area1 = 1521.11;
+    float pib1 = 699.28;
+    int pontos_turisticos1 = 50;
 
     // Variáveis para a Carta 2
     char estado2 = 'B';
     char codigo2[4] = "A02";
     char cidade2[50] = "Rio de Janeiro";
-    int populacao2 = '6748000';
-    float area2 = '1200.25 km²';
-    float pib2 = '300.50 bilhões de reais';
-    int pontos_turisticos2 = '30';
-
-    // Leitura dos dados da Carta 1
-    printf("Cadastro da Carta 1:\n");
-    printf("Estado (A-H): ");
-    scanf(" %c", &estado1); // Espaço antes do %c para evitar problemas com buffer
-    printf("Código (ex: A01): ");
-    scanf("%s", codigo1);
-    printf("Nome da Cidade: ");
-    scanf(" %s[^\n]s", cidade1); // Lê até a quebra de linha
-    printf("População: ");
-    scanf("%d", &populacao1);
-    printf("Área (km²): ");
-    scanf("%f", &area1);
-    printf("PIB (bilhões de reais): ");
-    scanf("%f", &pib1);
-    printf("Número de Pontos Turísticos: ");
-    scanf("%d", &pontos_turisticos1);
-
-    // Leitura dos dados da Carta 2
-    printf("\nCadastro da Carta 2:\n");
-    printf("Estado (A-H): ");
-    scanf(" %c", &estado2);
-    printf("Código (ex: B02): ");
-    scanf("%s", codigo2);
-    printf("Nome da Cidade: ");
-    scanf(" %s[^\n]s", cidade2);
-    printf("População: ");
-    scanf("%d", &populacao2);
-    printf("Área (km²): ");
-    scanf("%f", &area2);
-    printf("PIB (bilhões de reais): ");
-    scanf("%f", &pib2);
-    printf("Número de Pontos Turísticos: ");
-    scanf("%d", &pontos_turisticos2);
+    int populacao2 = 6748000;
+    float area2 = 1200.25;
+    float pib2 = 300.50;
+    int pontos_turisticos2 = 30;
 
     // Exibição dos dados das cartas
     printf("\nCarta 1:\n");
